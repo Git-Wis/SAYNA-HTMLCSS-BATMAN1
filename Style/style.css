@@ -1,0 +1,16 @@
+body {
+    color : white;
+    background-color: black;
+    margin : 0;
+    padding: 0;
+}
+
+.container {
+    margin: 10px  0 10 px  0;
+    padding: 0 15 px 0 ;
+    border-radius: 5px 5%;
+}
+
+.part1 {
+    background-image: url("Illustrations/Bathome1.png");
+}
