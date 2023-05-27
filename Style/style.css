@@ -28,7 +28,7 @@ body {
 }
 
 .logohome :hover {
-    background-color :#FFFF00;
+    filter:hue-rotate(60deg);
 }
 
 nav h1{
@@ -71,12 +71,16 @@ button:hover,button:active {
 .bc-img{
     background-image: url("../Illustrations/Bathome1.png");
     background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
 }
 
 .logo-left{
-    position: absolute;
+    position: fixed;
     display: grid;
-    grid-gap: 40px;
+    gap: 40px;
+    left : 1215px;
+
 
 }
 
@@ -93,18 +97,27 @@ button:hover,button:active {
     align-items: center;
 }
 
-picture {
-    margin: 20px 10px 20px;
-    padding: 15px 20px 15px;
-}
 
-.comment {
-    bottom: 0;
-    left: 0;
+div.gallery {
+    margin: 20px 10px 20px;
+    padding: 5px 20px 15px;
+    float: left;
+    
+  }
+  
+  div.gallery:hover {
+    padding-top: 25px;
+  }
+  
+  div.gallery img {
     width: 100%;
-    position: absolute;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
     text-align: center;
-}
+  }
 
 .part{
     margin: 50px 50px 10px 15px;
