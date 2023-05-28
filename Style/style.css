@@ -34,7 +34,11 @@ body {
 nav h1{
     margin:20px 0 50px 0;
     padding:20px 0 50px 950px;
-    text-decoration: none;
+    
+}
+
+nav>h1>a {
+    color: white;
 }
 
 h1 {
@@ -79,14 +83,14 @@ button:hover,button:active {
     position: fixed;
     display: grid;
     gap: 40px;
-    left : 1215px;
-
+    left : 90%;
 
 }
 
+
 .part1{
-    margin: 100px 150px;
-    padding: 150px 110px ;
+    margin: 100px;
+    padding: 100px;
 
 }
 
@@ -97,33 +101,50 @@ button:hover,button:active {
     align-items: center;
 }
 
-
-div.gallery {
-    margin: 20px 10px 20px;
-    padding: 5px 20px 15px;
-    float: left;
-    
-  }
-  
-  div.gallery:hover {
-    padding-top: 25px;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
-
 .part{
     margin: 50px 50px 10px 15px;
     padding: 20px 100px 20px 15px;
     text-align:justify;
+    float: none;
 }
+
+.bantome13 {
+    padding-left: 100px;
+}
+
+.bantome12 {
+    position: relative;
+    left: 90%;
+}
+
+ .gal {
+    display: flex;
+    flex-direction: row;
+    -ms-flex-direction: column;
+}
+
+.gallery {
+    padding: 20px;
+    
+  }
+  
+.gallery:hover {
+    padding-top: 25px;
+  }
+  
+.gallery img {
+    width: 304px;
+    height: 458px;
+  }
+  
+.desc {
+    font-family: "Space Grotesk";
+    font-size: 22px;
+    margin: 20px;
+    padding: 5px;
+    text-align:left;
+  }
+
 
 .fl_Down{
     display: flex;
@@ -136,7 +157,39 @@ div.gallery {
     text-align:justify;
 }
 
-/*Carousel slide*/
+.JS_Ligue {
+    overflow: visible;
+    overflow-x: auto;
+} 
+
+.centre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carousel {
+    background: linear-gradient(to right, #eddebf70, #19587d70);
+}
+
+.carousel :hover {
+    background: linear-gradient(to right, #eddebf, #19587d);;
+}
+
+.carousel {
+    margin-right: 100px;
+    padding: 20px 10px;
+    border: 1px outset #C4C4C4;
+    border-radius: 10px;
+    
+}
+
+
+
+span {
+    color: #FFFF00;
+}
+/*Carousel slide*
 
 .cadre {
     position: absolute;
@@ -223,3 +276,40 @@ div.gallery {
 }
 
 /*Carousel slide*/
+
+footer {
+    margin: 50px;
+    padding: 50px;
+}
+
+.footer1,.footer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer1>img {
+    padding-right: 5px;
+}
+
+.footer1 p {
+    font-size: 12px;
+}
+
+.Reseau_S {
+    width: 24px;
+    height: 24px;
+}
+
+.footer2>img{
+    padding-left: 10px;
+}
+
+.p2 {
+    padding-left: 20px;
+}
+
+.p2>img {
+    padding: 10px;
+}
